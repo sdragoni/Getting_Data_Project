@@ -1,7 +1,23 @@
 # Getting_Data_Project
 This is the course project for the Coursera Getting Data Course 
 
-Method
+## Overview
+Read in text files containing data and combine them to create tidy data then use this data to summarise any means and standard deviation columns by activity by subject
+
+###Files
+There are 3 data files each for the test and train data (X,y,activity) and the features and subject files
+The x file contains the data gathered from the accelerometers and the means adn standard deviations of this data. The y file contains the id of the subject who was performing the activity and the activity file contains the activity code (1:6)
+
+The features file contains the column headings for the x files. The activity file contains the activity code and the name of the corresponding activity.
+
+###Scope
+This project reads in the files above and outputs a summary_file.txt which contains the means of the means and stds. For this project I am assuming that any column heading that contains "mean" or "std" needs to be averaged 
+
+###File locations
+All files are assummed to be in the working directory. The summary_file.txt will also be output to the working directory
+
+
+##Method
 
 Define the inportt files (3 train, 3 test, the features and activity labels)
 Import the files

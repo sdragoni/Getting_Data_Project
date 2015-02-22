@@ -71,5 +71,5 @@ run_analysis <- function(){
 	  ### Output the summary data
       write.table(summ_data, "summary_file.txt", row.name=FALSE)
   
-      
+     
 }

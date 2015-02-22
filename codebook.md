@@ -1,3 +1,15 @@
+#Codebook
+
+##Original Data
+
+This document describes the tidy dataset generated from the merged datafiles imported 
+
+The original location of these files is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+THere is a full description of this data here
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+
 |Name|Variable Type|Description|Possible Values |
 |---|---|---|---|
 |activity|Factor|Descriptor of the 6 activities being performed|WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
@@ -88,4 +100,4 @@
 |anglex.gravitymean|Numeric|Mean of the gravitymean of the anglex|-1 to 1|
 |angley.gravitymean|Numeric|Mean of the gravitymean of the angley|-1 to 1|
 |anglez.gravitymean|Numeric|Mean of the gravitymean of the anglez|-1 to 1|
-|---|---|---|---|
+
